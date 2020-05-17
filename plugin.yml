@@ -1,0 +1,12 @@
+name: DebugCommand
+version: 0.0.1
+main: Eren5960\DebugCommand\Main
+api: 4.0.0
+
+commands:
+  debug:
+    description: Set the debug mode of logger
+    permission: use.debug.command
+permissions:
+  use.debug.command:
+    default: op
