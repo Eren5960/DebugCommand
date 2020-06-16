@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Eren5960/DebugCommand
+build-by-default: true
+branches:
+- master
+projects:
+  DebugCommand:
+    path: ""
+...
