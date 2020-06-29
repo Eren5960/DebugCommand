@@ -11,7 +11,7 @@ use pocketmine\Server;
 use pocketmine\utils\MainLogger;
 
 class Main extends PluginBase{
-	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
+	public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
 		$mode = array_shift($args) ?? 'anything';
 		if(!in_array($mode, ['on', 'off'])){
 			$sender->sendMessage('Usage: /debug <on/off>');

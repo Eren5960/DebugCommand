@@ -4,9 +4,9 @@ main: Eren5960\DebugCommand\Main
 api: [3.0.0, 4.0.0]
 
 commands:
-  debug:
-    description: Set the debug mode of logger
-    permission: use.debug.command
+    debug:
+        description: Set the debug mode of logger
+        permission: use.debug.command
 permissions:
-  use.debug.command:
-    default: op
+    use.debug.command:
+        default: op
